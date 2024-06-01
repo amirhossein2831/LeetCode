@@ -55,6 +55,12 @@ build CMakeFiles/Cpp.dir/main.cpp.o: CXX_COMPILER__Cpp_unscanned_Debug /home/ami
   OBJECT_DIR = CMakeFiles/Cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/Cpp.dir
 
+build CMakeFiles/Cpp.dir/TwoSum.cpp.o: CXX_COMPILER__Cpp_unscanned_Debug /home/amir/Desktop/GolangProject/LeetCode/Cpp/TwoSum.cpp || cmake_object_order_depends_target_Cpp
+  DEP_FILE = CMakeFiles/Cpp.dir/TwoSum.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/Cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Cpp
@@ -63,7 +69,7 @@ build CMakeFiles/Cpp.dir/main.cpp.o: CXX_COMPILER__Cpp_unscanned_Debug /home/ami
 #############################################
 # Link the executable Cpp
 
-build Cpp: CXX_EXECUTABLE_LINKER__Cpp_Debug CMakeFiles/Cpp.dir/main.cpp.o
+build Cpp: CXX_EXECUTABLE_LINKER__Cpp_Debug CMakeFiles/Cpp.dir/main.cpp.o CMakeFiles/Cpp.dir/TwoSum.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Cpp.dir
   POST_BUILD = :
